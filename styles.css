@@ -1,0 +1,23 @@
+.cabecalho{
+    background-color: rgb(193, 182, 182);
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    }
+    
+.recheio{
+    
+        background-color: blue;
+        height: 300px;
+        width: 1300px;
+        text-align: center;
+        margin-right: 150px;
+        margin-left: 80px;
+    }
+    
+.rodape{
+    
+        background-color: red;
+        height: 100px;
+    
+    }
