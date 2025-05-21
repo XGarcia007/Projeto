@@ -126,3 +126,50 @@ img:hover {
 
 }
 
+
+#comentarios {
+  width: 1000px;
+  margin: 30px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+#comentarios input,
+#comentarios textarea,
+#comentarios select {
+  width: 90%;
+  margin: 8px 0;
+  padding: 6px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+#comentarios button {
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#comentarios button:hover {
+  background-color: #45a049;
+}
+
+#lista-comentarios {
+  margin-top: 15px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
