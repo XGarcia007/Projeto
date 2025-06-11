@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f9f9f9;
@@ -13,7 +12,7 @@ body {
     color: white;
     padding: 30px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .cabecalho h1 {
@@ -40,17 +39,17 @@ body {
 
 
 .recheio {
-    
+
     background-color: white;
     max-width: 960px;
     margin: 50px auto;
     padding: 40px;
     text-align: center;
     font-size: 18px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     animation: fadeIn 1s ease-in-out;
-    
+
 }
 
 
@@ -70,13 +69,13 @@ img {
     height: 300px;
     width: 400px;
     border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 img:hover {
     transform: scale(1.03);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -99,36 +98,43 @@ img:hover {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
 
 .login {
-    
-        *{
-            box-sizing: border-box;
-        }
 
-        body{
-            width: 100%;
-            height: 100%;
-        }
+    * {
+        box-sizing: border-box;
+    }
 
-        form{
-            width: 300px;
-            margin: 200px auto;
-            text-align: center;
-        }
+    body {
+        width: 100%;
+        height: 100%;
+    }
 
-        input{
-            display: block;
-            margin: 10px auto;
-            width: 250px;
-            height: 30px;
-        }
-        
+    form {
+        width: 300px;
+        margin: 200px auto;
+        text-align: center;
+    }
+
+    input {
+        display: block;
+        margin: 10px auto;
+        width: 250px;
+        height: 30px;
+    }
+
 
 }
 
@@ -138,79 +144,72 @@ img:hover {
 
 
 #comentarios {
-  width: 1000px;
-  margin: 30px auto;
-  padding: 15px;
-  border: 1px solid #ccc;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-radius: 8px;
+    width: 1000px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
 #comentarios input,
 #comentarios textarea,
 #comentarios select {
-  width: 90%;
-  margin: 8px 0;
-  padding: 6px;
-  border: 1px solid #aaa;
-  border-radius: 4px;
+    width: 90%;
+    margin: 8px 0;
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
 }
 
 #comentarios button {
-  padding: 6px 12px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 #comentarios button:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 #lista-comentarios {
     margin-top: 15px;
     text-align: center;
-        
-        *{
-            box-sizing: border-box;
-        } 
 
-        body {
-            width: 100%;
-            height: 100%;
-        }
+    * {
+        box-sizing: border-box;
+    }
 
-        form{
-            width: 300px;
-            margin: 200px auto;
-            text-align: center;
-        }
+    body {
+        width: 100%;
+        height: 100%;
+    }
 
-        input{
-            display: block;
-            margin: 10px auto;
-            width: 250px;
-            height: 30px;
-        }
+    form {
+        width: 300px;
+        margin: 200px auto;
+        text-align: center;
+    }
+
+    input {
+        display: block;
+        margin: 10px auto;
+        width: 250px;
+        height: 30px;
+    }
 }
 
 
 .idex {
 
-    img{
-        height: 700px;
+    img {
+        height: 900px;
         width: 1550px;
-        
+
     }
-   
+
 }
-
-
-
-
-
-
-
